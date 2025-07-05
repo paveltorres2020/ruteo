@@ -1,6 +1,12 @@
 
-<div>
-<a routerLink=""> Normal   </a>
-<a routerLink="reactivo">  Reactivo</a>
+<h2>Aplicación Principal</h2>
 
-</div>
+<nav>
+  <button routerLink="/Normal">Normal</button>
+  <button routerLink="/Reactivo">Reactivo</button>
+</nav>
+
+<hr>
+
+<!-- Aquí se mostrará el componente según la URL -->
+<router-outlet></router-outlet>
